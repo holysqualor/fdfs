@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 
+/* nblocks must be power of 2 */
 uint32_t fd32(uint32_t idx, uint32_t nblocks) {
 	if(!idx)
 		return 0;
